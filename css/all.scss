@@ -1,0 +1,49 @@
+.header {
+  background-color: #424242;
+  color: #ffd366;
+  .btn-txt {
+    font-size: 20px;
+    color: #424242;
+  }
+}
+
+// BMI紀錄
+.list {
+  margin-top: 10px;
+  .weight {
+    margin: 20px 10px;
+  }
+  //BMI顏色
+  .weight_A {
+    border-left: 5px solid #31baf9;
+  }
+  .weight_B {
+    border-left: 5px solid #86d73e;
+  }
+  .weight_C {
+    border-left: 5px solid #ff982d;
+  }
+  .weight_D {
+    border-left: 5px solid #ff6c02;
+  }
+  .weight_E {
+    border-left: 5px solid #ff6c02;
+  }
+  .weight_F {
+    border-left: 5px solid #ff1200;
+  }
+}
+
+// 表尾
+.fot-bg {
+  background: #ffd366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    a {
+      text-decoration: none;
+      letter-spacing: 3px;
+    }
+  }
+}

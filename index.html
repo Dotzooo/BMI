@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+
+    <title>BMI</title>
+</head>
+
+<body>
+    <header class="header py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4" id="info1">
+                    <h3>常常沒時間管理體重?</h3>
+                </div>
+                <div class="col-4" id="info2">
+                    <h3>不知道自己體重是否標準?</h3>
+                </div>
+                <div class="col-4" id="info3">
+                    <h3>快來看看自己BMI吧</h3>
+                </div>
+
+                <div class="col-auto mt-4">
+                    <div class="my-1 mx-1">
+                        <label class="">身高 (cm)</label>
+                        <input type="text" class="form-control rounded" id="height" placeholder="請輸入身高">
+                    </div>
+                    <div class="my-1 mx-1">
+                        <label>體重 (kg)</label>
+                        <input type="text" class="form-control rounded" id="weight" placeholder="請輸入體重">
+                    </div>
+                </div>
+                <div class="col-auto mt-5 align-self-center">
+                    <button type="submit" class="btn btn-warning rounded-circle py-4 btn-txt"
+                        id="resultBtn">看結果</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container-fluid my-4">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h3 class="text-center">BMI 紀錄</h3>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="image/weight.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="col-12 col-md-6">
+                    <ul class="list container">
+                        <!-- <li class="d-flex flex-row">
+                                <h2>BMI狀態</h2>
+                                <p><span>BMI、身高、體重、日期</span></p>
+                                <i class="btn fas fa-times"></i>
+                            </li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="fot-bg py-2">
+        <h1>參考資料</h1>
+        <ul>
+            <li>
+                <a href="https://zh.wikipedia.org/wiki/%E8%BA%AB%E9%AB%98%E9%AB%94%E9%87%8D%E6%8C%87%E6%95%B8"
+                    target="_blank">身高體重指數</a>
+            </li>
+            <li>
+                <a href="https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=542&pid=9737" target="_blank">成人健康體位標準表</a>
+            </li>
+            <li>
+                <a href="https://www.hpa.gov.tw/Home/Index.aspx" target="_blank">衛生福利部國民健康署</a>
+            </li>
+        </ul>
+
+
+
+
+    </footer>
+
+    <script src="js/all.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
